@@ -1,0 +1,55 @@
+.project-img {
+  height: 130px;
+  border: 1px solid black;
+}
+
+.project-container-left {
+  background-color: #d5daef;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 200px 20px 40px;
+  font-size: 9px;
+  box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
+  border-radius: 20px;
+}
+
+.project-container-right {
+  background-color: #8ea0e7;
+  color: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 40px 20px 220px;
+  font-size: 9px;
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.project-text-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5;
+}
+
+.project-focus > span {
+  color: orangered;
+  font-size: 10px;
+}
+
+.project-btn {
+  margin-right: 10px;
+  padding: 2;
+  width: 50px;
+  font-size: 9px;
+}
+
+.project-title-left {
+  color: rgb(63, 63, 200);
+  font-size: 15px;
+}
+
+.project-title-right {
+  color: rgb(39, 18, 102);
+  font-size: 15px;
+}

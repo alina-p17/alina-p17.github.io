@@ -1,0 +1,96 @@
+.h1-container {
+  margin: 5px 0 5px 100px;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.h2-container {
+  margin: 0px 0px 5px 120px;
+  font-size: 18px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  color: rgb(249, 170, 183);
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 60px;
+  font-size: 12px;
+  opacity: 0;
+  z-index: -1;
+}
+
+.b1 {
+  animation: ani1 15s infinite;
+}
+.b2 {
+  animation: ani2 15s infinite;
+}
+.b3 {
+  animation: ani3 15s infinite;
+}
+.b4 {
+  animation: ani4 15s infinite;
+}
+.b5 {
+  animation: ani5 15s infinite;
+}
+
+@keyframes ani1 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+}
+
+@keyframes ani2 {
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+@keyframes ani3 {
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+}
+
+@keyframes ani4 {
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+}
+@keyframes ani5 {
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
