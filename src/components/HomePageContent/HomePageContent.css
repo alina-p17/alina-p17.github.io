@@ -3,50 +3,64 @@ span {
 }
 
 .home-content {
-  height: 100%;
-  margin-top: 30px;
-  margin-bottom: 45px;
+  margin-top: 45px;
+  margin-bottom: 80px;
   color: rgb(64, 61, 61);
 }
 
 .home-content-text {
+  font-size: 24px;
   border-radius: 70% 50%;
-  margin: 0px 90px 60px 220px;
-  padding: 30px 150px;
+  margin-left: 350px;
+  margin-right: 130px;
+  padding: 50px 200px;
   background-color: rgb(178, 219, 169);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .home-content-img {
-  height: 200px;
-  margin-left: 100px;
-  margin-top: 110px;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 150px;
   position: absolute;
 }
 
 .waving-hand-img {
-  height: 16px;
-  margin-left: 0;
+  height: 25px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .home-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 80px 0 80px;
+    margin: 20px 60px 0 60px;
   }
 
   .home-content-text {
     border-radius: 0%;
     margin: 20px;
     padding: 20px;
+    font-size: 20px;
   }
 
   .home-content-img {
-    height: 200px;
     margin-left: 0px;
-    margin-top: 5px;
+    margin-top: 0px;
     position: relative;
+    z-index: -1;
+    height: auto;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-content-text {
+    font-size: 17px;
+  }
+
+  .home-content {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }

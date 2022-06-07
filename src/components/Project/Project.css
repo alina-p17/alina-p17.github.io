@@ -1,5 +1,6 @@
 .project-img {
-  height: 130px;
+  height: 200px;
+  width: 320px;
   border: 1px solid black;
 }
 
@@ -8,8 +9,9 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  margin: 10px 200px 20px 40px;
-  font-size: 9px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 15px;
   box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
   border-radius: 20px;
 }
@@ -20,8 +22,8 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  margin: 10px 40px 20px 220px;
-  font-size: 9px;
+  margin: 30px 80px 30px 80px;
+  font-size: 15px;
   box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
@@ -34,22 +36,25 @@
 
 .project-focus > span {
   color: orangered;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .project-btn {
-  margin-right: 10px;
-  padding: 2;
-  width: 50px;
-  font-size: 9px;
+  margin-right: 30px;
+  width: 70px;
+  font-size: 14px;
+}
+
+.project-btn a {
+  text-decoration: none;
 }
 
 .project-title-left {
   color: rgb(63, 63, 200);
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .project-title-right {
   color: rgb(39, 18, 102);
-  font-size: 15px;
+  font-size: 20px;
 }

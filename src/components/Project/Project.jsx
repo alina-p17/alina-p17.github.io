@@ -7,6 +7,8 @@ const Project = ({
   projectText,
   focusOn,
   counter,
+  btnLive,
+  btnRepo,
 }) => {
   if (counter % 2 == 0) {
     return (
@@ -26,8 +28,16 @@ const Project = ({
             {focusOn}
           </p>
           <div>
-            <button className="project-btn">LIVE</button>
-            <button className="project-btn">REPO</button>
+            <button className="project-btn">
+              <a target="_blank" href={btnLive}>
+                LIVE
+              </a>
+            </button>
+            <button className="project-btn">
+              <a target="_blank" href={btnRepo}>
+                REPO
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -51,15 +61,12 @@ const Project = ({
           </p>
           <div>
             <button className="project-btn">
-              <a target="_blank" href="/live-projects/rock-paper-scissors">
+              <a target="_blank" href={btnLive}>
                 LIVE
               </a>
             </button>
             <button className="project-btn">
-              <a
-                target="_blank"
-                href="https://github.com/alina-p17/alina-p17.github.io/tree/main/public/live-projects/rock-paper-scissors"
-              >
+              <a target="_blank" href={btnRepo}>
                 REPO
               </a>
             </button>

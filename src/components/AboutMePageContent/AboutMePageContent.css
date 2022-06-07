@@ -1,16 +1,17 @@
 .about-me-section {
   display: flex;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .about-me-content {
-  margin: 0 70px 0 70px;
+  margin: 0 160px 0 160px;
+  margin-bottom: 8px;
 }
 
 .my-photo-img {
-  height: 160px;
-  width: 150px;
+  height: 240px;
+  width: 230px;
   border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -21,28 +22,29 @@
 }
 
 .pill-img {
-  height: 12px;
+  height: 18px;
 }
 
 div section p {
   line-height: 1.6;
-  margin-left: 50px;
-  padding: 30px;
-  font-size: 12px;
+  margin-left: 80px;
+  padding: 40px 50px;
+  font-size: 18px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: rgb(253, 254, 255);
   border-radius: 10px;
 }
 
 button {
-  width: 100px;
-  height: 25px;
+  width: 140px;
+  height: 35px;
+  font-size: 18px;
   background-color: white;
   color: rgb(30, 144, 255);
   padding: 5px;
   border-radius: 100px;
   border: 1px solid white;
-  margin-top: 10px;
+  margin-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -56,18 +58,18 @@ button:hover {
 }
 
 .logos {
-  margin: 8px 8px 0 3px;
+  margin: 8px 12px 0 6px;
   padding: 3px;
 }
 
 .linkedIn-logo {
-  height: 22px;
-  width: 22px;
+  height: 32px;
+  width: 32px;
 }
 
 .github-logo {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
 }
 
 .logos:hover {
@@ -75,12 +77,7 @@ button:hover {
   padding: 0px;
 }
 
-@media (max-width: 800px) {
-  .about-me-section {
-    display: block;
-    margin-left: 0;
-  }
-
+@media (max-width: 1300px) {
   .my-photo-container {
     display: flex;
     flex-direction: column;
@@ -88,21 +85,23 @@ button:hover {
     padding: 10px;
   }
   .about-me-content {
-    margin: 0 0 0 60px;
-  }
-  div section p {
-    margin-left: 0px;
-  }
-
-  .my-photo-img {
-    height: 200px;
-    width: 190px;
+    margin: 0 0 0 30px;
   }
 }
 
-@media (max-width: 500px) {
-  .my-photo-img {
+@media (max-width: 1000px) {
+  .about-me-section {
+    display: block;
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+  /* .my-photo-img {
     height: auto;
     max-width: 50%;
+  } */
+
+  div section p {
+    margin-left: 0;
   }
 }

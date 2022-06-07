@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/stars.png");
+}
+
+.spaceships-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 5px;
+}
+
+.spaceships-label {
+  color: white;
+  text-shadow: rgb(247, 247, 247) 0.1em 0.1em 0.2em;
+  font-size: 20px;
+}
+
+.rotated-left {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="bmi-container">
+      <div class="text-div">
+        <h3>CALCULATE YOUR BMI</h3>
+        <button class="btn-reset">RESET</button>
+      </div>
+
+      <main class="input-data">
+        <section class="gender-section">
+          <h4>YOU ARE ?</h4>
+          <div>
+            <button class="btn-gender btn-female">Female</button>
+            <button class="btn-gender btn-male">Male</button>
+          </div>
+        </section>
+        <label for="#bodyweight">Bodyweight in KG</label>
+        <input class="input-style" id="bodyweight" type="number" />
+        <label for="#height">Height in m</label>
+        <input class="input-style" id="height" type="number" />
+      </main>
+
+      <h3 class="result-text">RESULT :</h3>
+      <div><p id="result-BMI"></p></div>
+    </div>
+  </body>
+</html>

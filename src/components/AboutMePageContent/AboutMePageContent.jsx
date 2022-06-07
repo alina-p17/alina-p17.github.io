@@ -8,7 +8,7 @@ const AboutMePageContent = () => {
         <div className="my-photo-container">
           <img
             className="my-photo-img"
-            src="/images/Alina.jpg"
+            src="/images/personal_photo.jpg"
             alt="woman photo"
           />
           <button>Download CV</button>

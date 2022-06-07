@@ -13,16 +13,17 @@ body {
 }
 
 .projects-page-div {
-  margin: 10px 80px 10px 80px;
+  margin: 0 200px 30px 200px;
   padding: 20px;
   border-radius: 10px;
 }
 
 .projects-page-title {
-  margin: 15px 30px 30px 30px;
+  margin: 20px 30px 10px 100px;
   padding: 10px;
   color: rgb(83, 83, 83);
   text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
 }
 
 .projects-page-title span {
