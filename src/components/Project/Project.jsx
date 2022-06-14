@@ -28,16 +28,12 @@ const Project = ({
             {focusOn}
           </p>
           <div>
-            <button className="project-btn">
-              <a target="_blank" href={btnLive}>
-                LIVE
-              </a>
-            </button>
-            <button className="project-btn">
-              <a target="_blank" href={btnRepo}>
-                REPO
-              </a>
-            </button>
+            <a className="project-link" target="_blank" href={btnLive}>
+              LIVE
+            </a>
+            <a className="project-link" target="_blank" href={btnRepo}>
+              REPO
+            </a>
           </div>
         </div>
       </div>
@@ -60,16 +56,12 @@ const Project = ({
             {focusOn}
           </p>
           <div>
-            <button className="project-btn">
-              <a target="_blank" href={btnLive}>
-                LIVE
-              </a>
-            </button>
-            <button className="project-btn">
-              <a target="_blank" href={btnRepo}>
-                REPO
-              </a>
-            </button>
+            <a className="project-link" target="_blank" href={btnLive}>
+              LIVE
+            </a>
+            <a className="project-link" target="_blank" href={btnRepo}>
+              REPO
+            </a>
           </div>
         </div>
         <img className="project-img" src={projectImgSrc} />

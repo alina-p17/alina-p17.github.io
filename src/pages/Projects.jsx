@@ -6,17 +6,17 @@ const Projects = () => {
   return (
     <div>
       <h4 className="projects-page-title">
-        take a look at my <span>PROJECTS</span>
+        &#10230; take a look at my <span>PROJECTS</span>
       </h4>
       <div className="projects-page-div">
         <Project
           counter={counter++}
           projectImgSrc="/images/hangman_game.png"
           projectTitle="The Hangman Game"
-          projectText="The Hangman is a simple JavaScript project about guessing letters from A to Z to form a words. The player has to find the word by selecting a letter each time. If the player guesses the right letter that is within the word, the letter appears at its correct positions. If the player finds the word in certain amount of chances he wins, otherwise, if he fails to complete the word then the game is over."
+          projectText="The Hangman is a simple JavaScript project about guessing letters from A to Z to form a word. The player has to find the word by selecting a letter each time. If the player guesses the right letter that is within the word, the letter appears at its correct position. If the player finds the word in certain amount of chances he wins, otherwise, if he fails to complete the word then the game is over."
           focusOn=" HTML | CSS | JavaScript | ES6 Modules | ES6 Classes"
-          btnLive=""
-          btnRepo=""
+          btnLive="/live-projects/hangman-game"
+          btnRepo="https://github.com/alina-p17/alina-p17.github.io/tree/main/public/live-projects/hangman-game"
         />
         <Project
           counter={counter++}

@@ -12,7 +12,7 @@ const Header = () => {
           alt="black html tag"
         />
         <ul>
-          <li className="header-list">
+          <li>
             <Link to="/">HOME</Link>
             <Link to="/about-me">ABOUT ME</Link>
             <Link to="/projects">PROJECTS</Link>

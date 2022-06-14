@@ -73,10 +73,13 @@ header nav li a:hover::before {
   header nav li a {
     align-self: center;
     margin-right: 0px;
+    padding: 5px;
+    font-size: 16px;
   }
 
   header nav ul {
     margin: 0 auto;
     padding: 0px;
+    align-items: flex-end;
   }
 }

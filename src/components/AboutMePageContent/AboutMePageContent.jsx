@@ -11,16 +11,19 @@ const AboutMePageContent = () => {
             src="/images/personal_photo.jpg"
             alt="woman photo"
           />
-          <button>Download CV</button>
+          <a href="/cv/Alina-CV.pdf" download>
+            {" "}
+            <button>Download CV</button>
+          </a>
           <div>
-            <a>
+            <a href="https://www.linkedin.com/in/alina-paicu" target="_blank">
               <img
                 className="logos linkedIn-logo"
                 src="/images/linkedIn-logo.png"
                 alt="LinkedIn logo"
               />
             </a>
-            <a>
+            <a href="https://github.com/alina-p17" target="_blank">
               <img
                 className="logos github-logo"
                 src="/images/github-logo.webp"

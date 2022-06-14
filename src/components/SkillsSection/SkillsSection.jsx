@@ -8,27 +8,27 @@ const SkillsSection = () => {
       <ul>
         <li className="skills-list">
           <img src="/images/html-icon.svg" alt="html-icon" />
-          HTML5
+          <p>HTML5</p>
         </li>
         <li className="skills-list">
           <img src="/images/css-icon.svg" alt="css-icon" />
-          CSS3
+          <p>CSS3</p>
         </li>
         <li className="skills-list">
           <img src="/images/javascript-icon.svg" alt="javascript-icon" />
-          JS+ES6
+          <p>JS+ES6</p>
         </li>
         <li className="skills-list">
           <img src="/images/react-icon.svg" alt="react-icon" />
-          React
+          <p>React</p>
         </li>
         <li className="skills-list">
-          <img src="/images/github-logo.webp" alt="github-icon" />
-          GitHub
+          <img src="/images/git-icon.svg" alt="git-icon" />
+          <p>Git</p>
         </li>
         <li className="skills-list">
           <img src="/images/vscode-icon.svg" alt="vscode-icon" />
-          VS Code
+          <p>VS Code</p>
         </li>
       </ul>
     </div>
