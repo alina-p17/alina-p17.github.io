@@ -97,9 +97,16 @@
 
 @media (max-width: 1000px) {
   .h1-container {
-    margin-left: 100px;
+    margin-left: 50px;
+    font-size: 30px;
   }
   .h2-container {
-    margin-left: 150px;
+    margin-left: 80px;
+    font-size: 28px;
+  }
+  .box {
+    font-size: 15px;
+    margin-top: -26px;
+    margin-left: 80px;
   }
 }

@@ -87,7 +87,7 @@ button:hover {
     padding: 10px;
   }
   .about-me-content {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 10px;
   }
 }
 
@@ -95,10 +95,11 @@ button:hover {
   .about-me-section {
     display: block;
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 10px;
   }
 
   div section p {
     margin-left: 0;
+    padding: 15px;
   }
 }

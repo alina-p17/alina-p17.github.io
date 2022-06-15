@@ -67,19 +67,32 @@ header nav li a:hover::before {
 @media (max-width: 400px) {
   header nav li {
     display: flex;
-    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 12px;
   }
 
   header nav li a {
     align-self: center;
-    margin-right: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   header nav ul {
     margin: 0 auto;
     padding: 0px;
-    align-items: flex-end;
+  }
+}
+
+@media (max-width: 300px) {
+  header nav li {
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  header nav li a {
+    font-size: 12px;
   }
 }

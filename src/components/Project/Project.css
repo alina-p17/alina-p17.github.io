@@ -108,7 +108,7 @@
 
 @media (max-width: 800px) {
   .project-container-right {
-    margin: 0 12px 0 12px;
+    margin: 0 10px 0 10px;
     border-bottom: none;
     border-right: none;
     box-shadow: none;
@@ -116,10 +116,12 @@
     background-color: #ffe6e1;
     border-top: 1px solid white;
     justify-content: flex-end;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .project-container-left {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-bottom: none;
     border-left: none;
     box-shadow: none;
@@ -127,13 +129,14 @@
     background-color: #ffe6e1;
     border-top: 1px solid white;
     justify-content: flex-end;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
   .project-img {
     margin-top: 20px;
-    margin-right: 20px;
     height: auto;
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 
