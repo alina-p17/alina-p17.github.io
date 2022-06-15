@@ -232,7 +232,28 @@ body {
   .main-text,
   .post-two-article,
   #post-two-img {
+    width: 50%;
+    height: auto;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 430px) {
+  #contact-img {
     width: 100%;
     height: auto;
+  }
+
+  .contact-input-textarea {
+    width: 100%;
+    height: auto;
+    margin: 2px;
+  }
+  section {
+    margin-top: 20px;
   }
 }
