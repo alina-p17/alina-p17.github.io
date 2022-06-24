@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  background-color: #0f5298;
+}
+.clock-container {
+  background-color: #d5f3fe;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  padding: 25px;
+  margin: 50px 300px 0px 300px;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+.clock {
+  text-align: center;
+  margin: 30px;
+  font-size: 50px;
+}
+
+.div-buttons {
+  text-align: center;
+}
+
+.buttons {
+  margin-right: 30px;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+  box-shadow: 10px 5px 5px grey;
+  cursor: pointer;
+}
+
+.btn-click {
+  padding: 4px 9px;
+}
+.saved-timer {
+  color: white;
+  margin: 0px 30px;
+  padding: 10px;
+  height: 100px;
+  width: 300px;
+  font-size: 20px;
+  border-top: 1px solid grey;
+}
+
+.text {
+  margin: 70px 33px 10px;
+  color: White;
+  font-size: 20px;
+}
+
+#hours,
+#minutes,
+#seconds {
+  text-shadow: 7px 3px 6px grey;
+}

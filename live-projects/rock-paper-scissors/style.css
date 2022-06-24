@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b0aac0;
+}
+
+.game-title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(11, 66, 48);
+  text-shadow: 10px 5px 5px rgb(104, 103, 103);
+}
+
+main {
+  margin: 50px 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.message {
+  text-align: center;
+}
+
+.players {
+  background-color: #c2d4dd;
+  height: 300px;
+  width: 300px;
+  border: 1px solid rgb(194, 194, 194);
+  box-shadow: 10px 5px 5px grey;
+}
+
+.player-title {
+  text-shadow: 10px 5px 5px rgb(104, 103, 103);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.images-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.images {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.images-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.player--winner {
+  background-color: #77a8a8;
+}
+
+.hidden {
+  display: none;
+}
+
+.choosen-image-PC,
+.choosen-image-player-user {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 70px 100px;
+}
+
+.message-div {
+  width: 150px;
+}
+
+.images:hover {
+  cursor: pointer;
+}
+
+.img-active {
+  transform: translateY(-10%);
+}
