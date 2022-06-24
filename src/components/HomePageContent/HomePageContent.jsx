@@ -25,10 +25,9 @@ const HomePageContent = ({ firstName, lastName }) => {
         <p>
           An ENTHUSIASTIC <span>Front-End Web Developer</span> at the beginning
           of her journey in the beautiful world of coding.
-          <p>
-            I'm looking for new opportunities to bring my contribution to the
-            web.
-          </p>
+        </p>
+        <p>
+          I'm looking for new opportunities to bring my contribution to the web.
         </p>
       </div>
     </div>
